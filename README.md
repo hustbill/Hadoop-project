@@ -4,9 +4,9 @@ Hadoop-Demo
 
 ** 1. Source file**
 
-<br /> 
-/*--------------------------------------------------------
- * FileName: 	 FindMaxValue.java
+<br /> /*--------------------------------------------------------
+ <br /> 
+* FileName: 	 FindMaxValue.java
  * Author:   	 Billy Zhang (billyzhang2010@gmail.com)
  * Date:          	May 27, 2014
  * Version:			0.2
@@ -17,10 +17,12 @@ Hadoop-Demo
  * 				array9 ...
  *
  * 				Find the max elem globally from all array.
- *--------------------------------------------------------/
+ *
+<br /> --------------------------------------------------------/
 
 
 **2. Input file: data.txt**
+<p>
 12
 36
 90
@@ -63,4 +65,4 @@ cat Output
 
 
 **4 Result**
-Max elem is :	901
+<br/> Max elem is :	901
