@@ -1,11 +1,23 @@
 Hadoop-Demo
 ==============
 <br /> Find the max item from the list by MapReduce in Hadoop.
+**Hadoop Interview question **   
 
-**1. Source file**
- FileName: 	 FindMaxValue.java  
- Author:   	 Billy Zhang (billyzhang2010@gmail.com)  
- Date:      	May 27, 2014  
+ Description:  
+ 	Find the max elem globally from all array.  
+  	array1 = [2,3...655], length = 300  
+  		array2 = [4,6,6,466], length = 300  
+  			...
+  				array9 ...  
+ 
+ 			
+**1. Source file**  
+---------------------------------------------------  
+FileName: 	 FindMaxValue.java  
+Author:   	 Billy Zhang (billyzhang2010@gmail.com)  
+Date:          	May 27, 2014  
+Version:			0.2  
+---------------------------------------------------
 
 
 **2. Input file: data.txt**
@@ -35,7 +47,7 @@ Hadoop-Demo
 <br /> Here is the commands in test.sh:
 
 <pre><code>
- #!/bin/bash
+#!/bin/bash
  rm -rf Output*
  rm -rf FindMaxValue.jar
 
@@ -46,29 +58,16 @@ hadoop fs -mkdir Input
 hadoop fs -copyFromLocal data.txt Input
 hadoop fs -rmr Output*
 hadoop jar FindMaxValue.jar FindMaxValue Input  Output
-hadoop fs -getmerge Output/ .
+hadoop fs -getmerge Output/* Output
 cat Output
-
 </code></pre>
 
 
 **4 Result**
 <br/> Max elem is :	901
 
+  
 
 
---------------------------------------------------------
-<br /> 
-* FileName: 	 FindMaxValue.java
- * Author:   	 Billy Zhang (billyzhang2010@gmail.com)
- * Date:          	May 27, 2014
- * Version:			0.2
- * Description: 
- * 	array1 = [2,3...655], length = 300
- * 		array2 = [4,6,6,466], length = 300
- * 			...
- * 				array9 ...
- *
- * 				Find the max elem globally from all array.
- *
-<br /> --------------------------------------------------------
+
+
