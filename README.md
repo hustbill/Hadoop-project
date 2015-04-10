@@ -1,10 +1,9 @@
 Hadoop-Demo
 ==============
-<br /> Find the max item from the list by MapReduce in Hadoop.
-**Hadoop Interview question **   
+**Hadoop Interview question**   
 
  Description:  
- 	Find the max elem globally from all array.  
+ 	Find the max elem globally from all arrays,    
   	array1 = [2,3...655], length = 300  
   		array2 = [4,6,6,466], length = 300  
   			...
