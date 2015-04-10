@@ -15,7 +15,6 @@ Hadoop-Demo
 FileName: 	 FindMaxValue.java  
 Author:   	 Billy Zhang (billyzhang2010@gmail.com)  
 Date:          	May 27, 2014  
-Version:			0.2  
 ---------------------------------------------------
 
 
