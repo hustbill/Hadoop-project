@@ -11,11 +11,9 @@ Hadoop-Demo
  
  			
 **1. Source file**  
----------------------------------------------------  
 FileName: 	 FindMaxValue.java  
 Author:   	 Billy Zhang (billyzhang2010@gmail.com)  
 Date:          	May 27, 2014  
----------------------------------------------------
 
 
 **2. Input file: data.txt**
