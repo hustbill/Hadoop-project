@@ -1,6 +1,6 @@
-Hadoop-Demo
+Hadoop-project
 ==============
-**Hadoop Interview question**   
+**Hadoop Sample question**   
 
  Description:  
  	Find the max elem globally from all arrays,    
