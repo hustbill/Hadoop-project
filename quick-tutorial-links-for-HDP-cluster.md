@@ -21,21 +21,26 @@ password: hadoop
 You can use the built-in web client which can be accessed from here: http://127.0.0.1:4200   
 ```code
 Atlas 
-url: http://127.0.0.1:21000
+url: (http://127.0.0.1:21000)
 username: admin
 password: admin
 Ranger 
-url: http://127.0.0.1:6080
+url: (http://127.0.0.1:6080)
 username: admin
 password: admin
 Zeppelin TechPreview 
-url: http:/ /127.0.0.1:9995
+url: (http:/ /127.0.0.1:9995)
 Ambari 
-url: http://127.0.0.1:8080
+url: (http://127.0.0.1:8080)
 username: admin
 password: set process *
 Falcon *
-url: http://127.0.0.1:15000
+url: (http://127.0.0.1:15000)
 username: falcon
+
+
+* Service disabled by default. To enable the service you need to log in as an ambari admin.  
+The ambari admin password can be set by ssh'ing into the vm as root as mentioned in the section "Secure Shell (SSH)   Client". Once logged in as root user, execute ambari-admin-password-reset and follow the prompt  
+
 ```
 Go to the Ambari Dashboard to start the service  
